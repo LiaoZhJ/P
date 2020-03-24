@@ -31,7 +31,9 @@ CMFCApplication8Doc::CMFCApplication8Doc()
 {
 	// TODO: 在此添加一次性构造代码
 	flag = true;
-	
+	R = 0;
+	G = 0;
+	B = 0;
 
 }
 

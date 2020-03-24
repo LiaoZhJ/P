@@ -16,6 +16,9 @@ protected: // 仅从序列化创建
 public:
 	CRect C;
 	bool flag;
+	int R;
+	int G;
+	int B;
 // 操作
 public:
 

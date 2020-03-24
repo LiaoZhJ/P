@@ -68,11 +68,12 @@ void CMFCApplication8View::OnDraw(CDC* pDC)
 		pDoc->C.top = pDoc->C.top - 20;
 		pDoc->C.right = pDoc->C.right + 20;
 		pDoc->C.left = pDoc->C.left - 20;
-		/*CBrush brush, *oldbrush;
-		brush.CreateSolidBrush(RGB(0, 0, 0));
-		oldbrush = pDC->SelectObject(&brush);*/
+		CBrush brush, *oldbrush;
+		pDoc->R=pDoc->R + 30;
+		brush.CreateSolidBrush(RGB(pDoc->R, pDoc->R, pDoc->R));
+		oldbrush = pDC->SelectObject(&brush);
 		pDC->Ellipse(pDoc->C.left, pDoc->C.top, pDoc->C.right, pDoc->C.bottom);
-		//pDC->SelectObject(oldbrush);
+		pDC->SelectObject(oldbrush);
 	}
 	else
 		pDC->Ellipse(pDoc->C.left, pDoc->C.top, pDoc->C.right, pDoc->C.bottom);
