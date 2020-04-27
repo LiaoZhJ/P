@@ -1,0 +1,7 @@
+﻿  MyD.cpp
+e:\project-liaozhj\p\mfcapplication21\mfcapplication21\myd.cpp(68): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\project-liaozhj\p\mfcapplication21\mfcapplication21\myd.cpp(69): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\project-liaozhj\p\mfcapplication21\mfcapplication21\myd.cpp(74): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\project-liaozhj\p\mfcapplication21\mfcapplication21\myd.cpp(81): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  MFCApplication21.vcxproj -> E:\Project-LiaoZhJ\P\MFCApplication21\Debug\MFCApplication21.exe
+  MFCApplication21.vcxproj -> E:\Project-LiaoZhJ\P\MFCApplication21\Debug\MFCApplication21.pdb (Partial PDB)
